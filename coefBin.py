@@ -139,6 +139,7 @@ def graficar(x,y1,y2,y3,n):
     plt.xlabel("K")
     plt.ylabel("tiempos de ejecucion")
     plt.savefig(f"figura_N{n}.png")
+    plt.clf()
     #plt.show()
     
 def main():
